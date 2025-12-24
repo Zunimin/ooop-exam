@@ -1,4 +1,8 @@
+""""
+Создание класса Item
+"""
 class Item:
+    # Метод инициализации
     def __init__(self, id, name, price):
         self.id = id
         self.name = name

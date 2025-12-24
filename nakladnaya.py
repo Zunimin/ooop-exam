@@ -1,4 +1,8 @@
+""""
+Создание класса Nakladnaya
+"""
 class Nakladnaya:
+    # Метод инициализации
     def __init__(self, date, poluchatel, tovarov):
         self.date = date
         self.poluchatel = poluchatel
